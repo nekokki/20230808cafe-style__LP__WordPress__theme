@@ -1,0 +1,115 @@
+<?php
+/* Template Name: 当店のこだわり */
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Damion&family=Noto+Serif+JP:wght@400;700&family=Patua+One&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/style.css">
+    <title>concept</title>
+</head>
+<body>
+    <div class="drawer__menu__bg"></div>
+
+    <section class="drawer concept2__drawer">
+        <div class="drawer__items">
+            <div class="drawer__logo concept2__drawer__logo"><img src="<?php echo get_template_directory_uri() ?>/img/top-sp/logo_light.svg" alt=""></div>
+            <div class="drawer__icon"><label for="menu-btn-check" class="menu-btn"><span></span></label></div>
+        </div>
+    </section>
+
+    <section class="drawer__menu concept2__drawer__menu">
+        <div class="drawer__menu__items">
+            <div class="drawer__menu__item">
+                <div class="drawer__menu__leads">
+                    <div class="drawer__menu__lead"><a href="<?php echo home_url('/'); ?>"><span class="span__en">TOP</span><span class="span__ja">/</span><span class="span__ja">トップ</span></a></div>
+                    <div class="drawer__menu__lead"><a href="<?php echo get_permalink( get_page_by_path('concept') ); ?>"><span class="span__en">CONCEPT</span><span class="span__ja">/</span><span class="span__ja">コンセプト</span></a></div>
+                    <div class="drawer__menu__lead"><a href="<?php echo get_permalink( get_page_by_path('menu') ); ?>"><span class="span__en">MENU</span><span class="span__ja">/</span><span class="span__ja">メニュー</span></a></div>
+                    <div class="drawer__menu__lead"><a href="http://neko-tsuki.com/my-portfolio3/category/news/"><span class="span__en">NEWS</span><span class="span__ja">/</span><span class="span__ja">お知らせ</span></a></div>
+                    <div class="drawer__menu__lead"><a href="<?php echo get_permalink( get_page_by_path('shop') ); ?>"><span class="span__en">SHOP</span><span class="span__ja">/</span><span class="span__ja">店舗情報</span></a></div>
+                    <div class="drawer__menu__lead"><a href="<?php echo get_permalink( get_page_by_path('gift') ); ?>"><span class="span__en">GIFT</span><span class="span__ja">/</span><span class="span__ja">ギフト・贈り物</span></a></div>
+                    <div class="drawer__menu__lead"><a href="<?php echo get_permalink( get_page_by_path('contact') ); ?>"><span class="span__en">CONTACT</span><span class="span__ja">/</span><span class="span__ja">お問い合わせ</span></a></div>
+                </div>
+                <div class="drawer__menu__sns">
+                    <a href="#"><i class="fa-brands fa-twitter fa-2xl" style="color: #fff;"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-2xl" style="color: #fff;"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube fa-2xl" style="color: #fff;"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="concept concept2__bg">
+        <div class="concept__outlines">
+            <div class="section__title__item concept2__item">
+                <div class="section__title concept2__title">CONCEPT</div>
+                <div class="section__title__lead concept2__title__lead">当店のこだわり</div>
+            </div>
+        </div>
+    </section>
+    <!-- /.concept -->
+
+    <div class="breadcrumb news__breadcrumb">
+        <?php bcn_display(); ?>
+    </div>
+
+    <section class="concept__items concept2__items">
+        <div class="concept__right concept2__right">
+            <div class="concept__right__item concept__right__item1">
+                <div class="concept__right__message concept2__right__message">美味しいコーヒーと食事で、<br>最高のひとときを。</div>
+                <div class="concept__right__lead concept2__right__lead">ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。<br>ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。<br>ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。<br>ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。</div>
+            </div>
+            <!-- /.concept__left__item -->
+        </div>
+        <!-- /.concept__left -->
+        <div class="concept__left concept2__left"><img src="<?php echo get_template_directory_uri() ?>/img/concept/img_concept1@2x.png" alt=""></div>
+        <!-- /.concept__right -->
+        <div class="bg1"></div>
+    </section>
+    <!-- /.concept__items -->
+    
+    <section class="concept__items concept2__items2">
+        <div class="concept__right concept2__right2">
+            <div class="concept__right__item concept__right__item1">
+                <div class="concept__right__message concept2__right__message">本場イタリアで培った<br>自慢のパスタ</div>
+                <div class="concept__right__lead concept2__right__lead">ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。<br>ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。<br>ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。</div>
+            </div>
+            <!-- /.concept__left__item -->
+        </div>
+        <!-- /.concept__left -->
+        <div class="concept__left concept2__left"><img src="<?php echo get_template_directory_uri() ?>/img/concept/img_concept2@2x.png" alt=""></div>
+        <!-- /.concept__right -->
+        <div class="bg2"></div>
+    </section>
+    <!-- /.concept__items -->
+    
+    <section class="concept__items concept2__items3">
+        <div class="concept__right concept2__right">
+            <div class="concept__right__item concept__right__item1">
+                <div class="concept__right__message concept2__right__message">ほどよい甘さの<br>自家製こだわりクロワッサン</div>
+                <div class="concept__right__lead concept2__right__lead">ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。<br>ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。</div>
+            </div>
+            <!-- /.concept__left__item -->
+        </div>
+        <!-- /.concept__left -->
+        <div class="concept__left concept2__left"><img src="<?php echo get_template_directory_uri() ?>/img/concept/img_concept3@2x.png" alt=""></div>
+        <!-- /.concept__right -->
+        <div class="bg3"></div>
+    </section>
+    <!-- /.concept__items -->
+
+<?php get_footer(); ?>
